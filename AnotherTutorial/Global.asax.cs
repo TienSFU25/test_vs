@@ -23,6 +23,8 @@ namespace AnotherTutorial
             // Interception is executed in this order of registration
             DbInterception.Add(new SchoolInterceptorTransientErrors());
             DbInterception.Add(new SchoolInterceptorLogging());
+
+            // random text
         }
     }
 }
